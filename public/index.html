@@ -3,56 +3,61 @@
   <head>
     <meta charset="utf-8" />
     <title>¡Ahoy!</title>
-  
+
     <link
       href="https://fonts.googleapis.com/css?family=Noto+Serif+SC"
       rel="stylesheet"
     />
-  
+
     <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
     <script src="bundle.js"></script>
     <style>
       * {
         box-sizing: border-box;
       }
-  
+
       /* html {
           background-color: black;
       } */
-  
-      body, html {
-        font-family: 'Noto Serif SC', serif;
+
+      body,
+      html {
+        font-family: "Noto Serif SC", serif;
         color: black;
         /* background-color: #999; */
         text-align: center;
         margin: 0;
         padding: 0;
       }
-  
+
       #header {
         padding: 1em;
         background-color: #222;
         color: white;
         text-align: center;
       }
-  
+
       #header h1 {
         margin: 0;
         padding: 0;
       }
-  
+
       #header p {
         color: white;
       }
-  
+
+      .image-section {
+  display: flex;
+  justify-content: space-evenly;
+}
     </style>
   </head>
   <body>
     <!-- Add your site or application content here -->
     <header id="header">
       <h1>¡Ahoy!</h1>
-      <p></p>
     </header>
+    <div class="image-section" />
     <div id="app"></div>
   </body>
 </html>
